@@ -1,0 +1,36 @@
+Using Eloquent for database management
+
+1)
+	* Create Folder within app/WesMurray/
+	* -- example --
+	* /app/WesMurray/User/User.php <- Referencing the Database Table Users !Important
+
+2)
+	* Creating the File 
+	* -- example --
+	* namespace WesMurray\User <- Depending on Filename
+	* 
+	* use Illuminate\Database\Eloquent\Model as Eloquent;
+	* 
+	* class User extends Eloquent
+	* 
+	*	protected $table = 'users' <- tableName
+	*
+	* 	protected $fillable = [ <- these are fields that you want fillable
+			'name', <- we want the name field to be fillable
+		]
+
+3) 
+	* In Libraries/Object.php | Create the table oject
+	* $this->tableName = new TableName
+	* Create and Use the nameSpace
+	* use WesMurray\TableName\TableName
+
+4) 	
+	* How to insert data into database
+	* Using eloquent
+
+	* $this->tableName->create([
+		## fieldname ## ## data ##
+		'name' => 'This is data'
+	]);

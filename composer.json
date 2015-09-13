@@ -1,0 +1,12 @@
+{
+	"autoload": {
+		"psr-4": {
+			"WesMurray\\": "app/WesMurray"
+		}
+	},
+
+    "require": {
+        "alexgarrett/violin": "~2.0",
+        "illuminate/database": "~5.1"
+    }
+}

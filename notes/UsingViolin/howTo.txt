@@ -1,0 +1,23 @@
+How to Use Violin
+- to catch errors
+
+<!-- code -->
+	
+use Violin\Violin
+
+$v = new Violin;
+
+$v->validate([
+	'varchar' => ['value', 'required']
+	'integer' => [1, 'required|int']
+]);
+
+<!-- code -->
+
+<!-- Validators -->
+
+These are seperated by: " | "
+
+* [required|min(3)|max(20)]
+
+<!-- Validators -->

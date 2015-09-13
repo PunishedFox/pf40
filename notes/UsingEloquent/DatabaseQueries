@@ -1,0 +1,22 @@
+1)	INSERTING MULTIPLE RECORDS OR SINGLE
+
+	* $query = $this->user->insert(array(
+		array('name' => 'This is data'),
+		array('name' => 'This is data'),
+	)); 
+
+2)	DELETING RECORDS
+
+	*  $this->user->where('id', '=', 7)->delete();
+
+3)	UPDATING RECORDS
+
+	*  $this->user->where('id', '=', '8')->update(['name' => 'Wes Murray']);
+
+4)  SELECTING RECORDS
+
+	*  $query = $this->user->chunk(10, function($users) {
+			foreach($users as $user) {
+				echo $user->name;
+			}
+		});
