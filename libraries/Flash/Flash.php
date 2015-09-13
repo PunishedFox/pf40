@@ -6,6 +6,16 @@
   * @copyright 2015 PunishedFoxx
  */
 
-class AppController extends Controller {
-	
+namespace Flash;
+
+class Flash {
+
+	public function message($message_text) {
+		return
+		'
+		<div class="flash">'.$message_text.'</div>
+		';
+
+	}
+
 }

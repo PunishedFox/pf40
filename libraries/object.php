@@ -9,6 +9,7 @@
 use Helpers\Helpers;
 use Hash\Hash;
 use Config\Config;
+use Flash\Flash;
 
 use WesMurray\User\User;
 
@@ -21,6 +22,7 @@ class Object {
 		$this->hash 	= new Hash;
 		$this->config   = new Config;
 		$this->user     = new User;
+		$this->flash 	= new Flash;
 	}
 
 }

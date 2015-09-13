@@ -1,0 +1,62 @@
+/* CK || dc2cf28bb472a3f5f07dc32fbdd0848ebaaa0b58 || */
+
+html, body, #doc, #page-outer {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	z-index: 0;
+	display: block;
+	overflow-y: scroll;
+}
+body {
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	background: #e9eaed;
+	color: #292f33;
+	font-size: 12px;
+	line-height: 1.34;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+input. button, select, textarea {
+	border: 1px solid;
+	border-color: #e1e8ed;
+	outline: none;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+a {
+	color: #0084b4;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	color: #0084b4;
+	text-decoration: underline;
+}
+.wrapper, .wrapper-narrow, .wrapper-permalink {
+	margin: 0 auto;
+	min-height: 0;
+	padding: 56px 23px 15px;
+	position: relative;
+	width: 1190px;
+}
+.wrapper {
+	padding-bottom: 0;
+}
+.AppContent {
+	padding: 56px 23px 15px;
+	position: relative;
+}
+.flash {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #bfe0ec;
+	background: #fff;
+	border-radius: 6px;
+	margin: 80px auto;
+	font-family: "Helvetica-Neue", "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #0084b4;
+	font-size: 14px;
+}

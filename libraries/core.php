@@ -19,6 +19,7 @@ include 'Helpers/Helpers.php';
 include 'Database/Database.php';
 include 'Hash/Hash.php';
 include 'Config/Config.php';
+include 'Flash/Flash.php';
 
 include BASE_PATH . 'config/routes.php';
 
